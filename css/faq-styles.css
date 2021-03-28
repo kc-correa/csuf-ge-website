@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Setting background color similar to CSUF blue, but not too dark */
+  background: #141e30;
+
+  /* Chrome */
+  background: -webkit-linear-gradient(-45deg, #35577d, #141e30);
+  /* IE */
+  background: linear-gradient(-45deg, #35577d, #141e30);
+  padding: 0;
+}
+
+/* Text in paragraph elements made bigger for readability */
+p {
+  font-size: 20pt;
+  font-family: "Trebuchet MS";
+}
+
+/* Header for the FAQ page */
+h1 {
+  font-size: 50pt;
+  font-family: "Century Gothic";
+}
+
+/* Header for the question sections: gaming and esports */
+h2 {
+  font-size: 35pt;
+  font-family: "Century Gothic";
+}
+
+/* Questions */
+h3 {
+  font-size: 20pt;
+  font-family: Verdana;
+}
+
+/* Change all font colors in the classes to white */
+.faqIntro,
+.faq {
+  z-index: -1;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  color: white;
+}
+
+.FAQBody {
+  display: grid;
+
+  /* text alignment */
+  text-align: left;
+
+  z-index: -1;
+  top: 100px;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px 20px;
+  position: fixed;
+  padding: 10px;
+}
+
+#main-nav {
+  background: #5148d6;
+  height: auto;
+  width: 100%;
+  opacity: 0.9;
+  position: fixed;
+  top: 10px;
+  padding: 0 20px;
+  transition: all 1s ease-in-out;
+  border-radius: 20px 20px;
+}
+
+#main-nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#main-nav .container a {
+  padding: 5px;
+}
+
+#main-nav .container a:hover {
+  opacity: 0.7;
+}
+
+.icons {
+  z-index: -1;
+  position: relative;
+  background: #ffff89;
+  padding: 25px;
+  opacity: 80%;
+  border-radius: 25px 25px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.icons h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.flex-items {
+  z-index: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  opacity: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+.welcome-text > p {
+  padding: 8px;
+  margin: auto;
+}
+
+.portraits {
+  z-index: -1;
+  position: relative;
+  background: white;
+  border-radius: 25px 25px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#boardmembers > .flex-items > div {
+  padding: 50px;
+}
+
+.icons-bottom {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 100%;
+  opacity: 100%;
+  padding: 10px;
+}
+
+.icons-bottom a {
+  padding: 15px;
+}
+
+.icons-bottom i {
+  color: rgb(51, 51, 180);
+}

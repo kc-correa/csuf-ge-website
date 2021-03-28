@@ -1,0 +1,134 @@
+:root {
+  --primary-color: #5148d6;
+  --secondary-color: rgb(25, 51, 100);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url("../images/NeonSignOn.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+a {
+  color: var(--test-color);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navbar */
+.landing-page {
+  background-image: url("../images/NeonSignOn.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  position: relative;
+  height: 100vh;
+  color: white;
+}
+
+#main-nav {
+  background: var(--primary-color);
+  height: auto;
+  width: 100%;
+  opacity: 0.9;
+  position: fixed;
+  top: 10px;
+  padding: 0 20px;
+  transition: all 1s ease-in-out;
+  border-radius: 20px 20px;
+}
+
+#main-nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#main-nav .container a {
+  padding: 5px;
+}
+
+#main-nav .container a:hover {
+  opacity: 0.7;
+}
+
+.icons {
+  z-index: -1;
+  position: relative;
+  background: #ffff89;
+  padding: 25px;
+  opacity: 80%;
+  border-radius: 25px 25px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.icons h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.flex-items {
+  z-index: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  opacity: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+.welcome-text > p {
+  padding: 8px;
+  margin: auto;
+}
+
+.portraits {
+  z-index: -1;
+  position: relative;
+  background: white;
+  border-radius: 25px 25px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#boardmembers > .flex-items > div {
+  padding: 50px;
+}
+
+.icons-bottom {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 100%;
+  opacity: 100%;
+  padding: 10px;
+}
+
+.icons-bottom a {
+  padding: 15px;
+}
+
+.icons-bottom i {
+  color: rgb(51, 51, 180);
+}

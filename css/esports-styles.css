@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* Want to implement a picture in the background; kind of like home page and have opacity set to make it kind of transparent */
+  /* background-color:blue; */
 }
 
 /* Header for the Esports page */
@@ -15,13 +17,14 @@ p {
   position: relative;
   font-size: 20pt;
   font-family: "Trebuchet MS";
+  padding: 30px;
 }
 
 .esports {
   display: grid;
 
   /* text alignment */
-  text-align: left;
+  text-align: center;
 
   z-index: -1;
   top: 100px;
@@ -126,3 +129,20 @@ p {
 .icons-bottom i {
   color: rgb(51, 51, 180);
 }
+
+/* Rocket League hyperlink aligned to left side; want try out hyperlinks to be on the same line */
+/* .rocketLeague {
+  text-align: left;
+  margin-left: 200px;
+} */
+
+/* Overwatch hyperlink aligned in the center */
+/* .overwatch {
+  text-align: center;
+} */
+
+/* Valorant hyperlink aligned to the right */
+/* .valorant {
+  text-align: right;
+  margin-right: 200px;
+} */

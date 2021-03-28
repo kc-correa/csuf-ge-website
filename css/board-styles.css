@@ -1,0 +1,94 @@
+body {
+    /* Setting background color similar to CSUF blue, but not too dark */
+    background: #141e30;
+
+    /* Chrome */
+    background: -webkit-linear-gradient(-45deg, #35577d, #141e30);
+    /* IE */
+    background: linear-gradient(-45deg, #35577d, #141e30);
+    padding: 0;
+}
+
+/* Board Members Heading */
+h1 {
+    font-size: 50pt;
+    font-family: "Century Gothic";
+    color: white;
+}
+
+/* Section dividers */
+h3 {
+    font-size: 15pt;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*Board member positions */
+h4 {
+    font-size: 13pt;
+    font-family: Verdana;
+    color: white;
+}
+
+/* Name, year, major */
+p {
+    font-size: 11pt;
+    font-family: "Trebuchet MS";
+    color: white;
+}
+
+p.introMessage {
+    font-size: 15pt;
+}
+
+.welcomeBM {
+    text-align: center;
+}
+
+/* Creates container that will hold images of board members */
+/* #image-container {
+    height: 60px;
+    width: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+} */
+
+/* Spreading out board members to make layout look nice; all aligned on right side of page */
+/* .divOfficer,
+.discordMod,
+.ssbManager {
+    text-align: right;
+} */
+
+/* Spreading out board members to make layout look nice; all aligned in center of page */
+/* .treasurer,
+.smManager,
+.fightingGames,
+.tabletop {
+    text-align: center;
+} */
+
+/* Spreading out board members to make layout look nice; all aligned on left side of page */
+/* .secretary,
+.wig,
+.casualGames,
+.fpsEsports {
+    text-align: left;
+    margin-left: 100px;
+} */
+
+/* Since there are only 2 in a row, these margins are larger */
+/* .president,
+.tcgManager {
+    text-align: left;
+    margin-left: 500px;
+} */
+
+/* Since there are only 2 in a row, these margins are larger */
+/* .vicePresident,
+.sciccManager {
+    text-align: right;
+    margin-right: 500px;
+} */

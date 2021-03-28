@@ -19,24 +19,28 @@ body {
 p {
   font-size: 20pt;
   font-family: "Trebuchet MS";
+  padding-bottom: 70px;
 }
 
 /* Header for the FAQ page */
 h1 {
   font-size: 50pt;
   font-family: "Century Gothic";
+  padding: 30px;
 }
 
 /* Header for the question sections: gaming and esports */
 h2 {
   font-size: 35pt;
   font-family: "Century Gothic";
+  padding-bottom: 50px;
 }
 
 /* Questions */
 h3 {
   font-size: 20pt;
   font-family: Verdana;
+  padding-bottom: 30px;
 }
 
 /* Change all font colors in the classes to white */
@@ -48,6 +52,7 @@ h3 {
   margin-right: 20px;
   position: relative;
   color: white;
+  text-align:center;
 }
 
 .FAQBody {

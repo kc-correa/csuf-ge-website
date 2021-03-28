@@ -1,4 +1,4 @@
-# csuf-ge-website
+# CSUF Hackathon Submission
 
 ## G&E Website for Hackathon!
 

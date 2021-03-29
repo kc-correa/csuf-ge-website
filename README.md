@@ -12,6 +12,7 @@ With the announcement of TuffyHacks, I decided that now would be the perfect tim
 ### Tools and IDE's Used
 * Visual Studio Code
 * Figma (used to layout what the website could look like; board member images on landing page were also used from Figma)
+* Photo assets (neon sign on landing page and CSUF Gaming shield) provided by CSUF G&E
 
 ### Home/Landing Page
 * Shows the image of the club logo to give a little preview/taste to intrigue the user. They can scroll down to learn what the club is about and when meetings are held.
